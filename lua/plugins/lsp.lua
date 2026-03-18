@@ -44,6 +44,7 @@ return {
 					local newOpts = vim.tbl_extend("force", opts, desc)
 					vim.keymap.set("n", keys, func, newOpts)
 				end
+
 				map("gr", vim.lsp.buf.references, "Go to References")
 				map("gd", vim.lsp.buf.definition, "Go to Definition")
 				map("K", vim.lsp.buf.hover, "Hover")
@@ -51,6 +52,7 @@ return {
 				map("gi", vim.lsp.buf.implementation, "Go to Implementation")
 				map("<leader>lf", vim.lsp.buf.format, "Format language")
 				map("<leader>lr", vim.lsp.buf.rename, "Rename")
+
 			end
 
 			local capabilities = vim.lsp.protocol.make_client_capabilities()

@@ -16,6 +16,7 @@ return {
 				vim.keymap.set(mode, keys, func, { desc = "Telescope: " .. desc })
 			end
 
+      map("<leader>sd", builtin.lsp_document_symbols, "Document Symbols")
 			map("<leader>sh", builtin.help_tags, "Search Help")
 			map("<leader>sf", builtin.find_files, "Search File")
 			map("<leader>sr", builtin.oldfiles, "Search Recent")
