@@ -2,6 +2,8 @@
   "cmp-nvim-lsp": { "branch": "main", "commit": "cbc7b02bb99fae35cb42f514762b89b5126651ef" },
   "everforest": { "branch": "master", "commit": "b03a03148c8b34c24c96960b93da9c8883d11f54" },
   "gitsigns.nvim": { "branch": "main", "commit": "1ce96a464fdbc24208e24c117e2021794259005d" },
+  "gruber-darker.nvim": { "branch": "main", "commit": "aba065c3a79b58cc3863d5c9db319255abd1258a" },
+  "kanagawa.nvim": { "branch": "master", "commit": "bb85e4bfc8d89b0e62c8fa53ccdd13d12e2f77b3" },
   "lazy.nvim": { "branch": "main", "commit": "306a05526ada86a7b30af95c5cc81ffba93fef97" },
   "lean.nvim": { "branch": "main", "commit": "5d662bbeb5b06c9cc2e2d675e78994955a91cdb2" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "ae609525ddf01c153c39305730b1791800ffe4fe" },

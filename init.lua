@@ -88,7 +88,7 @@ map("<leader>e", vim.cmd.Explore, "Explore file tree")
 -- slate
 -- sorbet
 
-vim.opt.background = "light"
-vim.cmd.colorscheme "retrobox"
-
 require("config.lazy")
+
+vim.opt.background = "dark"
+vim.cmd.colorscheme "everforest"
