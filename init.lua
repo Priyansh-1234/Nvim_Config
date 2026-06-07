@@ -1,6 +1,10 @@
 vim.g.mapleader = " "
 vim.g.maplocalleader = "//"
 
+vim.g.netrw_winsize = 20
+vim.g.netrw_banner = 0
+vim.g.netrw_liststyle = 3
+
 vim.g.have_nerd_font = true
 
 vim.opt.number = true
@@ -53,6 +57,7 @@ map("<Esc>", vim.cmd.nohlsearch, "No highlight search")
 map("<leader>t", ":botright 15split term:// ", "Run the terminal with the given command")
 map("<leader>co", ":colorscheme ", "Select the colorscheme")
 map("<leader>e", vim.cmd.Explore, "Explore file tree")
+map("<leader>ve", vim.cmd.Lexplore, "Explore file tree with vertical split")
 
 --  local term_buf = nil
 --  map("<leader>t", function ()
