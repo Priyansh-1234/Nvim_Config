@@ -16,10 +16,10 @@ return {
 			-- 'andrewradev/switch.vim',        -- for switch support
 			-- 'tomtom/tcomment_vim',           -- for commenting
 		},
-
-		---@type lean.Config
-		opts = { -- see below for full configuration options
-			mappings = true,
-		},
+    init = function ()
+      vim.g.lean_config = {
+        mappings = true,
+      }
+    end
 	},
 }

@@ -96,4 +96,4 @@ map("<leader>ve", vim.cmd.Lexplore, "Explore file tree with vertical split")
 require("config.lazy")
 
 vim.opt.background = "dark"
-vim.cmd.colorscheme "everforest"
+vim.cmd.colorscheme "nordfox"

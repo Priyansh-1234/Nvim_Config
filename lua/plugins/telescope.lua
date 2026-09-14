@@ -4,6 +4,7 @@ return {
 		version = "*",
 		dependencies = {
 			"nvim-lua/plenary.nvim",
+      "BurntSushi/ripgrep",
 			-- optional but recommended
 			{ "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
 		},
@@ -20,6 +21,7 @@ return {
 			map("<leader>sh", builtin.help_tags, "Search Help")
 			map("<leader>sf", builtin.find_files, "Search File")
 			map("<leader>sr", builtin.oldfiles, "Search Recent")
+			map("<leader>sg", builtin.live_grep, "Search Grep");
 		end,
 	},
 }

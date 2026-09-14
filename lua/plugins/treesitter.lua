@@ -12,6 +12,7 @@ return {
 				"zig",
 				"ocaml",
 				"python",
+        "haskell",
 			},
 
 			highlight = {
